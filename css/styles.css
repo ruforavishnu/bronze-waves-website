@@ -12,6 +12,12 @@
 	color:#db232f;
 	text-decoration:underline;
 }
+.navbar-props
+{
+	max-height:50px;
+	background-color:#fff;	
+	/*padding-bottom:50px;*/
+}
 .text-black
 {
 	color:#000;

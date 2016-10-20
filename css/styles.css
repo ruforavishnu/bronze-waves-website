@@ -30,11 +30,20 @@
 
 .logo-img
 {
-	width:50px;
-	height:50px;
+	width:100px;
+	height:100px;
+}
+.navbar-pad-up
+{
+	padding-top:40px;	
 }
 
-
+.navbar-props
+{
+	max-height:100px;
+	background-color:#fff;	
+	/*padding-bottom:50px;*/
+}
 .panel-bg-change
 {
 	background-color:#db232f !important;	
@@ -48,12 +57,7 @@
 	background-color:#fff!important;		
 	border:0px !important;
 }
-.navbar-props
-{
-	max-height:50px;
-	background-color:#fff;	
-	/*padding-bottom:50px;*/
-}
+
 .text-black
 {
 	color:#000;

@@ -18,6 +18,12 @@
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/searchbar-styles.css" rel="stylesheet">
+
+    <!-- mobirise css -->
+    <link rel="stylesheet" href="css/mobirise/style.css">
+
+    <!-- end of mobirise css-->
+    
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
@@ -38,6 +44,8 @@
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/myjquery-scripts.js"></script>
 
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd9NVkMYFqtUckT0aPC2VrOEaVZh5g8N0"></script>
+ <script type="text/javascript" src="js/jquery.googlemap.js"></script>
 
 </head>
 
@@ -298,7 +306,8 @@ Concrete blocks have become increasingly popular in the gulf area, mainly becaus
         </div>
         <!-- /.row -->
 
-        <!-- Portfolio Section -->
+		</div>
+        <!-- Container-->
         
         
 
@@ -309,6 +318,108 @@ Concrete blocks have become increasingly popular in the gulf area, mainly becaus
 
      
         <hr>
+         <p id="careers"></p>
+        
+        <br/><br/><br/><br/>
+        
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size"  style="background-color: rgb(239, 239, 239);">
+    
+    <div class="mbr-section__container mbr-section__container--std-padding container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
+                        <div class="mbr-header mbr-header--center mbr-header--std-padding">
+                            <h2 class="mbr-header__text text-center">Careers</h2>
+                        </div>
+                        <div ></div>
+                        <form   id="form" name="form" method="post" enctype="multipart/form-data" action="sendgodaddyemail.php">
+                            <input type="hidden" value="" data-form-email="true">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="uname" name="username" required="" placeholder="Name*" data-form-field="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="uemail" name="email" required="" placeholder="Email*" data-form-field="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id = "uphone" name="phone" placeholder="Phone" data-form-field="Phone">
+                            </div>
+                            <label>Upload Resume</label>
+                            <div class="form-group">
+
+                                <input class="form-control" type="file" name="fileToUpload" placeholder="Upload Resume" id="fileToUpload">
+                            </div>
+                            
+                         <div class="mbr-buttons "><button id="submit"  class="mbr-buttons__btn btn btn-lg btn-warning btn--align-right">Submit</button></div> 
+                        </form>
+	                        <br><br>
+
+                      
+
+
+                        
+                        <script>
+
+                        document.getElementById("fileToUpload").value = "Upload Resume";
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--                <p id="contact-us"></p>-->
+      
+       
+
+        <section class="mbr-section mbr-section--relative mbr-section--fixed-size"  style="background-color: rgb(60, 60, 60);">
+     
+    
+    <div class="mbr-section__container container" >
+                                <h2 class="mbr-header__text" style="text-align:center;color:white;">Contact Us</h2>
+
+        <div class="mbr-contacts mbr-contacts--wysiwyg row">
+        <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-5 col-sm-offset-1 text-color-white" >
+                        <p class="mbr-contacts__text efgh-pad-10">
+                        <strong>Tasaheel Group LLC</strong>
+                        <br>
+                        Po Box 1728 PC 114
+                        <br/>
+                        Muscat,<br/> Sultanate of Oman
+                        <br/>
+
+
+
+<br><br><br>
+<strong>CONTACT US</strong><br>
+info@tasaheelgroup-me.com<br>
+Tel: +968- 24881278
+<br>
+Fax : +968-24881277</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-sm-6">
+
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--no-bg">
+                    <div class="mbr-figure__map mbr-figure__map--short mbr-google-map">
+
+<!--                    <img class="img-responsive" src="http://placehold.it/700x450" alt="">-->
+                    <div id="map" style="width: 600px; height: 350px;"></div>
+
+                        <p class="mbr-google-map__marker" data-coordinates="10.007477, 76.324557"></p>
+                    </div>
+                </figure>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
 
         <!-- Footer -->
         <footer>
@@ -319,7 +430,7 @@ Concrete blocks have become increasingly popular in the gulf area, mainly becaus
             </div>
         </footer>
 
-    </div>
+
     <!-- /.container -->
 
     <!-- jQuery -->

@@ -36,6 +36,8 @@
 	<script src="https://use.fontawesome.com/b94ecde39a.js"></script>
     <script src="js/jquery.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/myjquery-scripts.js"></script>
+
 
 </head>
 
@@ -96,6 +98,45 @@
     <form class="searchbox_1" action="">
 <input type="search" class="search_1" placeholder="Search" />
 <button type="submit" class="submit_1 " value="search"><i class="fa fa-search search-btn-padding" aria-hidden="true"></i></button>
+<div class="search-extra-buttons">
+
+    <button class="dropdown myButton">
+    <a href="#" class="dropdown-toggle btn btn-custom" data-toggle="dropdown">Property Type<b class="caret"></b></a>
+    <ul class="dropdown-menu ">
+        <li class="li-pad-nicely">
+        <input type="radio" name="property-type" value="Building"><span class="span-pad">Building</span>
+
+        </li>
+        <li class="li-pad-nicely">
+        <input type="radio" name="property-type" value="Apartment"><span class="span-pad">Apartment</span>
+        </li>
+        <li class="li-pad-nicely">
+        <input type="radio" name="property-type" value="Flat"><span class="span-pad">Flat</span>
+        </li>
+
+    </ul>
+    </button>
+        <button class="dropdown myButton">
+    <a href="#" class="dropdown-toggle btn btn-custom" data-toggle="dropdown">Bedroom<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li class="li-pad-nicely">
+        <input type="checkbox" name="property-type" value="1bhk"><span class="span-pad">1 BHK</span>
+        </li>
+        <li class="li-pad-nicely">
+        <input type="checkbox" name="property-type" value="1bhk"><span class="span-pad">2 BHK</span>
+        </li>
+        <li class="li-pad-nicely">
+        <input type="checkbox" name="property-type" value="1bhk"><span class="span-pad">3 BHK</span>
+        </li>
+
+    </ul>
+    </button>
+    
+	<input type="text" width="20" class="input-price" placeholder="Min price" />
+    -
+  	<input type="text" width="20" class="input-price" placeholder="Max price" />
+</div>
+
 </form>
     </header>
     <!-- Header Carousel -->

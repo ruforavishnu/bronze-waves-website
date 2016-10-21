@@ -1,8 +1,16 @@
 // JavaScript Document
 
-$( "#btn-property" ).click(function() {
-  $( "#div-property" ).slideToggle( "slow", function() {
-    // Animation complete.
-	console.log('toggle clicked');
+
+$(document).ready(function() 
+{
+ $('#prop-button').click(function() {
+
+      $('#prop-dd').toggle();
   });
+ $('#bedroom-button').click(function() {
+
+      $('#bedroom-dd').toggle();
+  });
+
+  
 });

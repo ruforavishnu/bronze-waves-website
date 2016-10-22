@@ -7,7 +7,7 @@
 #back-img
 {
 
-background-color:rgb(239,239,239);
+background-color:#ffffff;
 padding:50px;
 	
 	
@@ -121,28 +121,30 @@ padding:50px;
 }
 #service-block
 {
-	background-color:#7dc25e;
+	background-color:#4f6f40;
 	position:relative;
 	top:-5px;
+	color:white;
+	border-color:#7dc25e;
 }
 .service-img
 {
 	width:150px;
 	height:150px;
 	
-	background-color:#7dc25e;
+/*	background-color:#fff;*/
 	
 	border-top:1px;
 	border-left:1px;
 	border-right:1px;
 	border-style:solid;
-	border-color:black;
+
 	padding:20px;
 	margin:5px;
 }
 .service-img:hover
 {
-	background-color:#fff;
+	background-color:rgb(239,239,239);
 	cursor:pointer;
 }
 .services-navbar
@@ -151,9 +153,61 @@ padding:50px;
 	margin : 0 auto;
 	left:20%;
 }
-#services-root
+#services-block
 {
-		background-color:rgb(239,239,239) ;
+	position:relative;
+	top:2px;
+	background-color:#7dc25e ;	
+	border:1px solid black;
+	z-index:10;
+	
+}
+#services-block-triangle
+{
+	position:absolute;
+
+	color:white;
+	left:40%;
+	top:117px;
+	z-index:20;
+
+	
+	
+	
+}
+
+.services-cover
+{
+	position:relative;
+	display:inline-block;
+}
+
+#service-section-block
+{
+	background-color:#ffffff;		
+	position:relative;
+	top:-4px;
+	border:1px solid black;
+	margin:80px;
+	
+}
+#service-section-logistics
+{
+	background-color:#ffffff;		
+	position:relative;
+	top:-5px;
+	border:1px solid black;
+	margin:80px;
+
+}
+#service-section-realestate
+{
+	background-color:#ffffff;		
+	position:relative;
+	top:-5px;
+	border:1px solid black;
+	margin:80px;
+
 }
 #service-triangle
 {

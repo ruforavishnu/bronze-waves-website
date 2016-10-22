@@ -142,7 +142,7 @@
 
     
 
-                  <img src="img/logo.png" class="service-img" id="services-laundry">
+                  <img src="img/laundry.jpg" class="service-img" id="services-laundry">
 
 
                   
@@ -300,7 +300,46 @@ The hard work and commitment from everyone involved at Bronze Waves has firmly e
         
 
 
+ <div id="service-section-laundry">
+        <div class="container">
+        <div class="row">
+       
+            <div class="col-md-6 ">
+            <br><br>
+				<h1 class="text-center fa-red">LAUNDRY</h1>
+                <br>
+               
+ 
+<h2>Eco Friendly Dry Cleaning</h2>
+ <p class="text-justify"><strong>Bronze Waves Laundry</strong>, established in 2007, is one of the leading real estate companies in Oman.
+We provides superb, eco-friendly dry cleaning and laundering for your garments. You simply toss your items in a locker and they come back clean, pressed and nicely packaged, hanging in the locker waiting for you. 
 
+We very carefully inspect each item and follow the manufacturers recommended care instructions. If shirts or pants can be laundered, we will typically launder them, unless you specify otherwise.
+
+If there is a stain you would like us to try to get out, stain stickers are conveniently located inside the lockers for you to clearly identify any stains. If you would like an item handled a special way, you simply place some notes in your profile and we will take care of it.
+
+Damaged buttons and minor repairs will be fixed free of charge and if there is any problem with your order, we'll take care of it, quickly and hassle free! 
+
+Just imagine, no more running home to make it to the dry cleaner before they close.</p>
+</div>
+<div class="col-md-6">
+<br><br><br>
+     	    <img class="img-responsive "   src="img/laundry-services.jpg" alt="">	
+
+
+
+
+
+
+                
+                
+            </div>
+             
+        </div>
+
+	</div>        <!-- Container-->
+
+        </div>
 
 
                                                     
@@ -314,12 +353,28 @@ $(document).ready(function() {
 		$('#services-block').css('background-color','#7dc25e');
 		$('#service-section-logistics').hide();
 		$('#service-section-realestate').hide();
+		$('#service-section-laundry').hide();
+
+	$('#services-block').click(function()
+	{
+		
+		$('#service-section-block').fadeIn(300);
+		$('#service-section-logistics').fadeOut(300);
+		$('#service-section-realestate').fadeOut(300);
+		$('#service-section-laundry').fadeOut(300);	
+				
+		$('#services-block').css('background-color','#7dc25e');
+		$('#services-logistics').css('background-color','#ffffff');	
+		$('#services-realestate').css('background-color','#ffffff');	
+			
+	});
 	
 	$('#services-logistics').click(function()
 	{
 		$('#service-section-logistics').fadeIn(300);
 		$('#service-section-block').fadeOut(300);
 		$('#service-section-realestate').fadeOut(300);
+		$('#service-section-laundry').fadeOut(300);		
 
 		$('#services-logistics').css('background-color','#7dc25e');
 		$('#services-block').css('background-color','#ffffff');
@@ -329,17 +384,6 @@ $(document).ready(function() {
 			
 	});
 	
-	$('#services-block').click(function()
-	{
-		
-		$('#service-section-block').fadeIn(300);
-		$('#service-section-logistics').fadeOut(300);
-		$('#service-section-realestate').fadeOut(300);
-		$('#services-block').css('background-color','#7dc25e');
-		$('#services-logistics').css('background-color','#ffffff');	
-		$('#services-realestate').css('background-color','#ffffff');	
-			
-	});
 	
 	$('#services-realestate').click(function()
 	{
@@ -347,11 +391,29 @@ $(document).ready(function() {
 		$('#service-section-realestate').fadeIn(300);
 		$('#service-section-logistics').fadeOut(300);
 		$('#service-section-block').fadeOut(300);
+		$('#service-section-laundry').fadeOut(300);	
+				
 		$('#services-realestate').css('background-color','#7dc25e');
 		$('#services-logistics').css('background-color','#ffffff');	
 		$('#services-block').css('background-color','#ffffff');	
 			
 	});
+	
+	$('#services-laundry').click(function()
+	{
+		
+		$('#service-section-block').fadeOut(300);
+		$('#service-section-logistics').fadeOut(300);
+		$('#service-section-realestate').fadeOut(300);
+		$('#service-section-laundry').fadeIn(300);	
+				
+		$('#services-laundry').css('background-color','#7dc25e');
+		$('#services-logistics').css('background-color','#ffffff');	
+		$('#services-realestate').css('background-color','#ffffff');	
+		$('#services-block').css('background-color','#ffffff');			
+			
+	});
+
 });
 
 </script>

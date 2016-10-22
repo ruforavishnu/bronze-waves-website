@@ -209,6 +209,15 @@ padding:50px;
 	margin:80px;
 
 }
+#service-section-realestate
+{
+	background-color:#ffffff;		
+	position:relative;
+	top:-5px;
+	border:1px solid black;
+	margin:80px;
+
+}
 #service-triangle
 {
 	display:block;

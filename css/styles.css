@@ -43,10 +43,20 @@ background-image:url(../img/bg.jpg);
 	top:77px;
 	
 	height:100px;
-	background-color:#efefef;
+	background-color:white;
 	padding:30px;
 	margin:0 auto;
 	border:1px solid black;	
+}
+.block-shape:hover
+{
+	background-color:#efefef;
+	cursor:pointer;
+}
+.dropdown-toggle:hover
+{
+		
+	
 }
 #services-block
 {
@@ -77,11 +87,7 @@ background-image:url(../img/bg.jpg);
 	left:0px;
 	
 }
-.block-shape:hover
-{
-	background-color:#fff;
-	cursor:pointer;
-}
+
 .border-remove
 {
 	border:0px !important;
@@ -138,7 +144,10 @@ background-image:url(../img/bg.jpg);
 {
 	padding-top:40px;	
 }
-
+.nav-bg:hover
+{
+	background-color:	#db232f;
+}
 .navbar-props
 {
 	max-height:100px;

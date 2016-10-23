@@ -58,6 +58,11 @@ background-image:url(../img/bg.jpg);
 		
 	
 }
+.force-bg-white
+{
+	background-color:white !important;
+	color:black !important;	
+}
 #services-block
 {
 	position:relative;

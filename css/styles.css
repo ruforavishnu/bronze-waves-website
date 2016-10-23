@@ -35,6 +35,51 @@ padding:50px;
 	*/
 	
 }
+.block-shape
+{
+	position:relative;
+	top:50px;
+	
+	height:100px;
+	background-color:#efefef;
+	padding:30px;
+	margin:0 auto;
+	border:1px solid black;	
+}
+#services-block
+{
+	position:relative;
+	left:0px;
+
+	
+}
+
+#services-logistics
+{
+	position:relative;
+	left:0px;
+	
+}
+
+#services-realestate
+{
+	position:relative;
+	left:0px;
+	
+}
+
+
+#services-laundry
+{
+	position:relative;
+	left:0px;
+	
+}
+.block-shape:hover
+{
+	background-color:#fff;
+	cursor:pointer;
+}
 .border-remove
 {
 	border:0px !important;
@@ -129,8 +174,8 @@ padding:50px;
 }
 .service-img
 {
-	width:150px;
-	height:150px;
+	width:200px;
+	height:200px;
 	
 /*	background-color:#fff;*/
 	
@@ -141,6 +186,7 @@ padding:50px;
 
 	padding:20px;
 	margin:5px;
+	display:inline-block;
 }
 .service-img:hover
 {
@@ -152,38 +198,14 @@ padding:50px;
 	position:relative;
 	margin : 0 auto;
 	left:20%;
-}
-#services-block
-{
-	position:relative;
-	top:2px;
-	background-color:#7dc25e ;	
-	border:1px solid black;
-	z-index:10;
-	
-}
-#services-block-triangle
-{
-	position:absolute;
-
-	color:white;
-	left:40%;
-	top:117px;
-	z-index:20;
-
-	
-	
-	
+	padding-top:50px;
 }
 
-.services-cover
-{
-	position:relative;
-	display:inline-block;
-}
 
 #service-section-block
 {
+	
+	
 	background-color:#ffffff;		
 	position:relative;
 	top:-4px;

@@ -7,12 +7,14 @@
 #back-img
 {
 
-background-color:#ffffff;
-padding:50px;
+background-image:url(../img/bg.jpg);
+	position:fixed;
 	
 	
-/*	width:100%;
-	height:590px;	*/
+	
+	width:100%;
+	height:590px;	
+	z-index:-10;
 }
 .back-light-color
 {
@@ -38,7 +40,7 @@ padding:50px;
 .block-shape
 {
 	position:relative;
-	top:50px;
+	top:77px;
 	
 	height:100px;
 	background-color:#efefef;
@@ -206,38 +208,41 @@ padding:50px;
 {
 	
 	
-	background-color:#ffffff;		
+	background-color:#7dc25e;		
 	position:relative;
 	top:-4px;
 	border:1px solid black;
 	margin:80px;
+	color:white;
 	
 }
 #service-section-logistics
 {
-	background-color:#ffffff;		
+	background-color:#ed6e36;		
 	position:relative;
 	top:-5px;
 	border:1px solid black;
 	margin:80px;
+	color:white;
 
 }
 #service-section-realestate
 {
-	background-color:#ffffff;		
+	background-color:#3496cb;		
 	position:relative;
 	top:-5px;
 	border:1px solid black;
 	margin:80px;
-
+	color:white;
 }
 #service-section-laundry
 {
-	background-color:#ffffff;		
+	background-color:#923e8d;		
 	position:relative;
 	top:-5px;
 	border:1px solid black;
 	margin:80px;
+	color:white;
 
 }
 #service-triangle
@@ -258,6 +263,10 @@ padding:50px;
     transform: scale(3, 1);
   
 
+}
+.services-heading
+{
+	background-color:white;	
 }
 
 .text-black

@@ -58,6 +58,31 @@ background-image:url(../img/bg.jpg);
 		
 	
 }
+.search-head
+{
+	display:block;
+	position:fixed;
+	background-color:#db232f;
+	color:white;
+	z-index:11 !important;
+	padding:30px;
+	height:200px;
+
+}
+
+#search-header
+{
+	background-color:#db232f;
+	color:white;
+	z-index:11;
+	padding:30px;
+	height:200px;
+
+	
+}
+.fill-bg-color
+{
+}
 .force-bg-white
 {
 	background-color:white !important;

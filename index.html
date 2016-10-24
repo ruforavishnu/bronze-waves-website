@@ -135,8 +135,8 @@
     <section id="front-bg">
     <div id="search-box">
     
-  <form class="searchbox_1" action="search.php" method="get">
-<input type="search" class="search_1" placeholder="Search" />
+  <form class="searchbox_1" action="search.php" method="post">
+<input type="text" class="search_1" name="search-keyword" placeholder="Search" />
 <div class="search-extra-buttons">
 	<div id="prop-area">
     
@@ -163,10 +163,10 @@
 	        <input type="checkbox" name="property-type[]" value="1bhk"><span class="span-pad">1 BHK</span>
         </span><br>
         <span class="li-pad-nicely">
-	        <input type="checkbox" name="property-type[]" value="1bhk"><span class="span-pad">2 BHK</span>
+	        <input type="checkbox" name="property-type[]" value="2bhk"><span class="span-pad">2 BHK</span>
         </span><br>
 		<span class="li-pad-nicely">
-	        <input type="checkbox" name="property-type[]" value="1bhk"><span class="span-pad">3 BHK</span>
+	        <input type="checkbox" name="property-type[]" value="3bhk"><span class="span-pad">3 BHK</span>
         </span><br>
     </div>
 	</div>
@@ -200,6 +200,7 @@
 function redirect()
 {
 	console.log('clicked');
+	location = 'one-bhk.html';
 }
 </script>
     </div>

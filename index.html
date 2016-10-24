@@ -135,7 +135,7 @@
     <section id="front-bg">
     <div id="search-box">
     
-  <form class="searchbox_1" action="">
+  <form class="searchbox_1" action="one-bhk.html">
 <input type="search" class="search_1" placeholder="Search" />
 <div class="search-extra-buttons">
 	<div id="prop-area">
@@ -184,9 +184,19 @@
 	</div>
     
     <div id="search-area">
-    <button type="submit" class=" myButton" value="search">Search<i class="fa fa-search search-btn-padding" aria-hidden="true"></i></button>
+    <button id="search-button" onclick="srch()" type="submit" class=" myButton" value="search">Search<i class="fa fa-search search-btn-padding" aria-hidden="true"></i></button>
 
     </div>
+    
+<script type="text/javascript">
+function srch()
+{
+	console.log('search btn clicked');
+}
+    document.getElementById("search-button").onclick = function () {
+        location.href = "one-bhk.html";
+    };
+</script>
 
     
 

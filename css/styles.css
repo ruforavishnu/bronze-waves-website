@@ -169,6 +169,14 @@ background-image:url(../img/bg.jpg);
 	color:#db232f;
 	text-decoration:underline;
 }
+.section-img
+{
+	padding:15px;
+	margin:30px 10px 0px;	
+	width:80%;
+		
+	
+}
 #logistics-img
 {
 	width:50%;
@@ -191,8 +199,10 @@ background-image:url(../img/bg.jpg);
 {
 
 	position:relative;
-	left:-70px;
-	top:-20px;
+	bottom:15px;
+	width:80%;
+
+
 }
 .logoname-align
 {
@@ -257,7 +267,9 @@ background-image:url(../img/bg.jpg);
 }
 #about-box
 {
-	background-color:rgb(239, 239, 239);	
+
+
+	background-color:#fffbf8;	
 	padding:10px 40px 10px;
 	width:70%;
 	height:300px;
@@ -337,49 +349,55 @@ background-image:url(../img/bg.jpg);
 .col-right
 {
 	position:absolute;
-	left:54%;	
+	left:53%;
+	width:45%;
+
+	padding:10px;
 	
 }
 #service-section-block
 {
 	
 	
-	background-color:#7dc25e;		
+	background-color:#738783;		
 	position:relative;
-	top:-4px;
+	top:-5px;
 	border:1px solid black;
 	margin:80px;
 	color:white;
-	width:80%;
+	height:1000px;
+
 	
 }
 #service-section-logistics
 {
-	background-color:#ed6e36;		
+	background-color:#738783;		
 	position:relative;
 	top:-5px;
 	border:1px solid black;
 	margin:80px;
 	color:white;
-
+	height:800px;
 }
 #service-section-realestate
 {
-	background-color:#3496cb;		
+	background-color:#738783;		
 	position:relative;
 	top:-5px;
 	border:1px solid black;
 	margin:80px;
 	color:white;
+	height:1000px;
 }
 #service-section-laundry
 {
-	background-color:#923e8d;		
+	background-color:#738783;		
 	position:relative;
 	top:-5px;
 	border:1px solid black;
 	margin:80px;
 	color:white;
+	height:500px;
 
 }
 #service-triangle

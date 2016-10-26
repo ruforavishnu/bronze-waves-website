@@ -74,6 +74,8 @@ cursor:pointer;
 .search_1:focus{
 outline:0;
 }
+
+
 /*my styles*/
 .btn-custom
 {
@@ -123,73 +125,6 @@ outline:0;
 	position:relative;
 	top:1px;
 }
-
-.input-price
-{
-	width:100px !important;	
-	height:45px !important;
-}
-.li-pad-nicely
-{
-	
-	padding-left:0px;
-	padding-right:0px;
-	color:#000;		
-}
-.search-extra-buttons
-{
-	padding-top:10px;	
-}
-.span-pad
-{
-	padding-left:10px;	
-}
-#prop-area
-{
-	position:relative;
-	display:inline-block;
-	top:0px;
-	left:10px;
-
-}
-	
-	
-#bedroom-area
-{
-	position:relative;
-	display:inline-block;
-	top:0px;
-	left:35px;
-	
-}
-#price-area
-{
-	position:relative;
-	display:inline-block;
-	top:-42px;
-	left:65px;
-	height:120px;
-
-
-}
-#search-area
-{
-	position:relative;
-	display:inline-block;
-	top:-62px;
-	right:-170px;
-
-	
-}
-
-.small-textbox
-{
-	width:60px !important;
-}
-
-
-
-
 
 
 

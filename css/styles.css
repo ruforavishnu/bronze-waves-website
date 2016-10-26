@@ -118,7 +118,7 @@
 	background-color:#fffbf8;	
 	padding:10px 40px 10px;
 	width:70%;
-	height:300px;
+	height:350px;
 	margin:0 auto;
 	
 	-moz-border-radius: 5px;
@@ -132,7 +132,25 @@
 
 
 }
+#careers-box
+{
+	background-color:#738783;
+	padding:10px 40px 30px;
+	width:70%;
+	height:450px;
+	margin:0 auto;
+	
+}
 
+#contactus-box
+{
+	background-color:#2d3639;
+	padding:10px 40px 30px;
+	width:70%;
+	height:200px;
+	margin:0 auto;
+	
+}
 #front-bg
 {
 	position:absolute;
